@@ -13,3 +13,18 @@ But that's not all. Doc Reader also learns and adapts over time. As you use the 
 Experience the future of document analysis with Doc Reader. Sign up today and discover a world where knowledge is just a question away.
 
 
+# Steps to build and run the app
+
+1) Clone the Repo 
+2) Go the the doc-reader folder 
+3) Open the Dockerfile 
+4) In line #7, insert OPENAI_API_KEY (Need Paid account to use CHATGPT LLM API)
+5) docker build -t doc-reader .
+6) docker run -it -p 8501:8501 doc-reader
+7) Go to web browser can do http://localhost:8501 
+8) You can start using the Doc-reader 
+
+`
+
+
+
